@@ -1,0 +1,22 @@
+{
+  "name": "the-chat-legal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile-locales": "node ./devUtils/compile-locales.mjs"
+  },
+  "dependencies": {
+    "@mui/material": "^5.4.4",
+    "@the-chat/njpwt": "^1.1.0",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "js-yaml": "^4.1.0",
+    "typescript": "^4.6.2"
+  }
+}
