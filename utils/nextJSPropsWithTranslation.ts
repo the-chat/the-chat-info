@@ -1,6 +1,6 @@
-import getNJPWT from "@the-chat/njpwt"
+import getNJPWT from "@the-chat/utils/nextJSPropsWithTranslation"
 
-type Locale = ""
+type Locale = "info" | "pages"
 
 const nextJSPropsWithTranslation = getNJPWT<Locale>()
 
