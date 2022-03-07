@@ -1791,10 +1791,10 @@
   resolved "https://registry.yarnpkg.com/@the-chat/types/-/types-1.0.6.tgz#1252ef8c4e084e46b04aacef44cf879b41a492e5"
   integrity sha512-rAhFXhSZO3Co/tgfnhm/gs3ceW1pzEnHw2HecdAWdIKOU3vNH4TeEo1Gs0aLZy9Cy96bblK+elX+Q4Dq/ijSQQ==
 
-"@the-chat/ui-kit@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@the-chat/ui-kit/-/ui-kit-1.2.0.tgz#8033f24a87f3120b4d2db600c809f6cc90db7e88"
-  integrity sha512-l2vVEV5wauGFLwQgk5olsRsX34hXsFIUvn0RNZMNdayTCN9WYEo8M3g9dR0EZInSG0+dFom9zoAqg5uS8f1vTw==
+"@the-chat/ui-kit@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@the-chat/ui-kit/-/ui-kit-1.2.1.tgz#d70044bae190f009b50381bdbe239a67cac26a35"
+  integrity sha512-d0x3Xan0fZ+d63MUGKvI5IBmjMnl/Ff2JgOXvx5OlzHv25NfQIBGhA25S2UElPp75/aTyNH7jAlKMpXlDlBUlw==
   dependencies:
     "@emotion/react" "^11.8.1"
     "@emotion/styled" "^11.8.1"
@@ -1806,7 +1806,7 @@
     "@the-chat/types" "^1.0.6"
     "@the-chat/use-sso" "^1.1.2"
     "@the-chat/use-user" "^1.1.6"
-    "@the-chat/utils" "^1.1.1"
+    "@the-chat/utils" "^1.1.2"
     next "^12.0.10"
     next-i18next "^10.5.0"
     react "^17.0.2"
@@ -1851,7 +1851,7 @@
     react "^17.0.2"
     react-firebase-hooks "4.0.1"
 
-"@the-chat/utils@^1.1.1", "@the-chat/utils@^1.1.2":
+"@the-chat/utils@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@the-chat/utils/-/utils-1.1.2.tgz#bafe3a1c1f3192684c53fe6082413474a656364e"
   integrity sha512-D1eR23DrRI9hSu38QyiR6wWbjftX2adio7NyALbvPba5y/rSpPtejeEbaQBxpKqNwSSsUW016nlBEYbLsUxchw==
