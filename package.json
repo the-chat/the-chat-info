@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@mui/material": "^5.4.4",
-    "@the-chat/njpwt": "^1.1.0",
+    "@the-chat/ui-kit": "^1.1.9",
     "next": "^12.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
