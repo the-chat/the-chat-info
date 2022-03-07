@@ -1,11 +1,16 @@
 # legalInfoThemes and about syntax: "# <title>(\n&&<all_other_md>)?"
 # todo?: add syntax handler
 en:
+  copyright: Copyright \u00A9 2021 - 3021 the Chat llc | All rights reserved
   about: |
     "# About
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officia possimus repellendus, voluptatum culpa dolor laudantium sapiente unde natus quo dolore consectetur rerum, omnis vitae, similique modi qui vero alias veniam! Culpa delectus facere vitae, voluptatem aperiam sapiente esse velit, earum fugit quo qui. Iusto veniam numquam sequi, architecto vero animi, ipsam, optio omnis voluptate ipsa nobis placeat non. Vitae quos voluptatum ut sint amet, asperiores nemo excepturi? Distinctio quaerat aliquam consectetur quibusdam exercitationem rem quam modi, assumenda aut explicabo ab, soluta culpa nulla placeat nam laudantium pariatur itaque et inventore maxime fugit perferendis rerum expedita! Quidem magnam eius veritatis modi. In pariatur deleniti minus similique molestias magni facere temporibus explicabo officiis qui, consectetur excepturi repellendus consequatur. Doloribus, ipsa. Illo pariatur consequuntur numquam magni corrupti nihil sed perferendis asperiores quia totam deserunt possimus esse, doloribus illum! Consectetur ducimus est vel non veritatis, suscipit tempore architecto sunt quos nemo sit commodi modi animi nobis et quam explicabo blanditiis ab possimus debitis ipsa odio repudiandae? Corrupti
     "
-  copyright: Копирайт \u00A9 2021 - 3021 the Chat llc | Все права защещины
+  aboutConsumers:
+    the-chat: "# the-chat EN ABOUT"
+    legal: "# legal EN ABOUT"
+    sso: "# sso EN ABOUT"
+    the-note: "# the-note EN ABOUT"
   legalInfoThemes:
     cookie-policy: "# Cookie policy"
     privacy-policy: |
@@ -45,11 +50,16 @@ en:
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officia possimus repellendus, voluptatum culpa dolor laudantium sapiente unde natus quo dolore consectetur rerum, omnis vitae, similique modi qui vero alias veniam! Culpa delectus facere vitae, voluptatem aperiam sapiente esse velit, earum fugit quo qui. Iusto veniam numquam sequi, architecto vero animi, ipsam, optio omnis voluptate ipsa nobis placeat non. Vitae quos voluptatum ut sint amet, asperiores nemo excepturi? Distinctio quaerat aliquam consectetur quibusdam exercitationem rem quam modi, assumenda aut explicabo ab, soluta culpa nulla placeat nam laudantium pariatur itaque et inventore maxime fugit perferendis rerum expedita! Quidem magnam eius veritatis modi. In pariatur deleniti minus similique molestias magni facere temporibus explicabo officiis qui, consectetur excepturi repellendus consequatur. Doloribus, ipsa. Illo pariatur consequuntur numquam magni corrupti nihil sed perferendis asperiores quia totam deserunt possimus esse, doloribus illum! Consectetur ducimus est vel non veritatis, suscipit tempore architecto sunt quos nemo sit commodi modi animi nobis et quam explicabo blanditiis ab possimus debitis ipsa odio repudiandae? Corrupti
       "
 ru:
+  copyright: Копирайт \u00A9 2021 - 3021 the Chat llc | Все права защещины
   about: |
     "# О приложение
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officia possimus repellendus, voluptatum culpa dolor laudantium sapiente unde natus quo dolore consectetur rerum, omnis vitae, similique modi qui vero alias veniam! Culpa delectus facere vitae, voluptatem aperiam sapiente esse velit, earum fugit quo qui. Iusto veniam numquam sequi, architecto vero animi, ipsam, optio omnis voluptate ipsa nobis placeat non. Vitae quos voluptatum ut sint amet, asperiores nemo excepturi? Distinctio quaerat aliquam consectetur quibusdam exercitationem rem quam modi, assumenda aut explicabo ab, soluta culpa nulla placeat nam laudantium pariatur itaque et inventore maxime fugit perferendis rerum expedita! Quidem magnam eius veritatis modi. In pariatur deleniti minus similique molestias magni facere temporibus explicabo officiis qui, consectetur excepturi repellendus consequatur. Doloribus, ipsa. Illo pariatur consequuntur numquam magni corrupti nihil sed perferendis asperiores quia totam deserunt possimus esse, doloribus illum! Consectetur ducimus est vel non veritatis, suscipit tempore architecto sunt quos nemo sit commodi modi animi nobis et quam explicabo blanditiis ab possimus debitis ipsa odio repudiandae? Corrupti
     "
-  copyright: Copyright \u00A9 2021 - 3021 the Chat llc | All rights reserved
+  aboutConsumers:
+    the-chat: "# the-chat RU ABOUT"
+    legal: "# legal RU ABOUT"
+    sso: "# sso RU ABOUT"
+    the-note: "# the-note RU ABOUT"
   legalInfoThemes:
     cookie-policy: "# Политика в отношении файлов cookie"
     privacy-policy: |
