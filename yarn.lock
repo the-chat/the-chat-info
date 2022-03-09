@@ -1791,10 +1791,10 @@
   resolved "https://registry.yarnpkg.com/@the-chat/types/-/types-1.0.6.tgz#1252ef8c4e084e46b04aacef44cf879b41a492e5"
   integrity sha512-rAhFXhSZO3Co/tgfnhm/gs3ceW1pzEnHw2HecdAWdIKOU3vNH4TeEo1Gs0aLZy9Cy96bblK+elX+Q4Dq/ijSQQ==
 
-"@the-chat/ui-kit@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@the-chat/ui-kit/-/ui-kit-1.2.1.tgz#d70044bae190f009b50381bdbe239a67cac26a35"
-  integrity sha512-d0x3Xan0fZ+d63MUGKvI5IBmjMnl/Ff2JgOXvx5OlzHv25NfQIBGhA25S2UElPp75/aTyNH7jAlKMpXlDlBUlw==
+"@the-chat/ui-kit@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@the-chat/ui-kit/-/ui-kit-1.2.2.tgz#9eea37b7056efa45a130e94385f7d96532c4af7b"
+  integrity sha512-ElTVLN51JEWKh0YcRz4scxqBbHkx8Fx8OYE1L6H7OVEyzHSFixXlcbiAnNIfdykfGUoIT6tgKhuTuPEXdm5kTg==
   dependencies:
     "@emotion/react" "^11.8.1"
     "@emotion/styled" "^11.8.1"
