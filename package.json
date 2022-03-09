@@ -1,5 +1,5 @@
 {
-  "name": "the-chat-legal",
+  "name": "the-chat-info",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@mui/material": "^5.4.4",
-    "@the-chat/ui-kit": "^1.2.2",
+    "@the-chat/ui-kit": "^1.2.5",
     "@the-chat/utils": "^1.1.2",
     "next": "^12.1.0",
     "next-pwa": "^5.4.5",
