@@ -8,12 +8,14 @@
   },
   "dependencies": {
     "@mui/material": "^5.4.4",
-    "@the-chat/ui-kit": "^1.2.5",
+    "@the-chat/ui-kit": "^1.2.6",
     "@the-chat/utils": "^1.1.2",
     "next": "^12.1.0",
     "next-pwa": "^5.4.5",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-markdown": "^8.0.0",
+    "remark-gfm": "^3.0.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
