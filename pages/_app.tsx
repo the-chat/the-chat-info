@@ -3,19 +3,16 @@ import { useState } from "react"
 import { auth, db } from "utils/firebase"
 import { AppProps } from "next/app"
 import { INFO, SSO } from "@the-chat/config"
-import {
-  Header,
-  Wrapper,
-  useSidebarButtonsDefaultSortFn,
-} from "@the-chat/ui-kit"
+import { Interface, useSidebarButtonsDefaultSortFn } from "@the-chat/ui-kit"
 
 const App = ({ Component, pageProps }: AppProps) => (
-  <Wrapper
+  <Interface
     configProviderValue={{
       auth,
       sidebarOpen: useState<boolean>(false),
       signOutArgs: [auth, "SIGN OUT", "ERROR"],
-      noUser: false,
+      newUser: false,
+      containerMaxWidth: "md",
       useSidebarButtons: () => useSidebarButtonsDefaultSortFn({}),
       InfoConfig: {
         ...INFO,
@@ -39,9 +36,8 @@ const App = ({ Component, pageProps }: AppProps) => (
       }),
     }}
   >
-    <Header />
     <Component {...pageProps} />
-  </Wrapper>
+  </Interface>
 )
 
 export default appWithTranslation(App)
