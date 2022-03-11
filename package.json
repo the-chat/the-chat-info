@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@mui/material": "^5.4.4",
+    "@the-chat/config": "^1.0.3",
     "@the-chat/firebase": "^1.0.2",
     "@the-chat/ui-kit": "^1.2.6",
     "@the-chat/utils": "^1.1.2",

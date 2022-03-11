@@ -2568,10 +2568,6 @@ csstype@^3.0.11:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.11.tgz#d66700c5eacfac1940deb4e3ee5642792d85cd33"
   integrity sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==
 
-d@the-chat/firebase:
-  version "1.0.2"
-  resolved "https://codeload.github.com/the-chat/firebase/tar.gz/867f1e2f77d971a2826f76f09d384a2f1a91d0aa"
-
 date-and-time@^2.0.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/date-and-time/-/date-and-time-2.2.1.tgz#70691b7d8a17633f3abe32aab148e194f9f2e215"
