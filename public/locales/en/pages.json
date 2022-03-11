@@ -1,8 +1,13 @@
 {
-  "/about": "About",
-  "/legal": "Legal information",
+  "/": "The Chat Info website",
+  "/about": "About The Chat",
+  "/legal": "The Chat Legal Info",
   "/legal/cookie-policy": "Cookie policy",
   "/legal/privacy-policy": "Privacy policy",
   "/legal/terms-of-service": "Terms of service",
-  "/legal/terms-of-use": "Terms of use"
+  "/legal/terms-of-use": "Terms of use",
+  "/about/the-chat": "the-chat EN ABOUT",
+  "/about/legal": "legal EN ABOUT",
+  "/about/sso": "sso EN ABOUT",
+  "/about/the-note": "the-note EN ABOUT"
 }

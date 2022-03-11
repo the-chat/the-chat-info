@@ -1,6 +1,9 @@
 # legalInfoThemes and about syntax: "# <title>(\n&&<all_other_md>)?"
 # todo?: add syntax handler
 en:
+  /: The Chat Info website
+  /about: About The Chat
+  /legal: The Chat Legal Info
   copyright: Copyright \u00A9 2021 - 3021 the Chat llc | All rights reserved
   about: |
     "# About
@@ -50,6 +53,9 @@ en:
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officia possimus repellendus, voluptatum culpa dolor laudantium sapiente unde natus quo dolore consectetur rerum, omnis vitae, similique modi qui vero alias veniam! Culpa delectus facere vitae, voluptatem aperiam sapiente esse velit, earum fugit quo qui. Iusto veniam numquam sequi, architecto vero animi, ipsam, optio omnis voluptate ipsa nobis placeat non. Vitae quos voluptatum ut sint amet, asperiores nemo excepturi? Distinctio quaerat aliquam consectetur quibusdam exercitationem rem quam modi, assumenda aut explicabo ab, soluta culpa nulla placeat nam laudantium pariatur itaque et inventore maxime fugit perferendis rerum expedita! Quidem magnam eius veritatis modi. In pariatur deleniti minus similique molestias magni facere temporibus explicabo officiis qui, consectetur excepturi repellendus consequatur. Doloribus, ipsa. Illo pariatur consequuntur numquam magni corrupti nihil sed perferendis asperiores quia totam deserunt possimus esse, doloribus illum! Consectetur ducimus est vel non veritatis, suscipit tempore architecto sunt quos nemo sit commodi modi animi nobis et quam explicabo blanditiis ab possimus debitis ipsa odio repudiandae? Corrupti
       "
 ru:
+  /: The Chat Информационный сайт
+  /about: О The Chat
+  /legal: The Chat Юридическая Информация
   copyright: Копирайт \u00A9 2021 - 3021 the Chat llc | Все права защещины
   about: |
     "# О приложение

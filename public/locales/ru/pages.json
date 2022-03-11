@@ -1,7 +1,13 @@
 {
-  "/legal": "Юридическая информация",
+  "/": "The Chat Информационный сайт",
+  "/about": "О The Chat",
+  "/legal": "The Chat Юридическая Информация",
   "/legal/cookie-policy": "Политика в отношении файлов cookie",
   "/legal/privacy-policy": "Политика конфидициальности",
   "/legal/terms-of-service": "\"условия обслуживания",
-  "/legal/terms-of-use": "Условия эксплуатации"
+  "/legal/terms-of-use": "Условия эксплуатации",
+  "/about/the-chat": "the-chat RU ABOUT",
+  "/about/legal": "legal RU ABOUT",
+  "/about/sso": "sso RU ABOUT",
+  "/about/the-note": "the-note RU ABOUT"
 }
