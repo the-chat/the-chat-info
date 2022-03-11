@@ -1839,10 +1839,12 @@
     "@mui/styles" "^5.4.1"
     notistack "^2.0.3"
 
-"@the-chat/config@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@the-chat/config/-/config-1.0.3.tgz#34765052e65c16848108fb0ca4a929657d4f8b0a"
-  integrity sha512-3QL7Yin9qWajRAueeLojeVeJT/OarO+eQF4TuhqH9O8/6iXkhNR6xfiP5JRaPeOFN9p1667kMqnehKt/aZMWwQ==
+"@the-chat/config@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@the-chat/config/-/config-1.0.4.tgz#796471898105fc884f91af67939a1c3fb3af21f9"
+  integrity sha512-+Rq6KtcaOY6HdwuYB9Mok91qcaGtn1LY+uMiDel9SLA1+L0Ua6qU5BeInMfEjCZNZ4EIoIFgBBwkJzHhFikSjg==
+  dependencies:
+    "@types/node" "^17.0.21"
 
 "@the-chat/db@^1.0.6":
   version "1.0.6"
@@ -1851,11 +1853,6 @@
   dependencies:
     firebase "^9.6.7"
     react-firebase-hooks "^4.0.1"
-
-"@the-chat/firebase@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@the-chat/firebase/-/firebase-1.0.2.tgz#a05503128ac2d2436d169cd8c7bc7c89484a2dac"
-  integrity sha512-hjHjiQz0xDwFJ45oqaz8eXQAW/KCuoFwpzY+y1BiR8xMDlG9seFi6q9wodwxDqe7jYMuq1SpJwjj5fWpCE30Iw==
 
 "@the-chat/gen-context@^1.1.5":
   version "1.1.5"
@@ -1872,22 +1869,22 @@
   resolved "https://registry.yarnpkg.com/@the-chat/types/-/types-1.0.6.tgz#1252ef8c4e084e46b04aacef44cf879b41a492e5"
   integrity sha512-rAhFXhSZO3Co/tgfnhm/gs3ceW1pzEnHw2HecdAWdIKOU3vNH4TeEo1Gs0aLZy9Cy96bblK+elX+Q4Dq/ijSQQ==
 
-"@the-chat/ui-kit@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@the-chat/ui-kit/-/ui-kit-1.2.6.tgz#d869363986b54600aa4ad9a9729d428529d55f90"
-  integrity sha512-T3uuygilttnNWarnUjQU+2MVoioA9LroPdrhPl2Oy/Ah15Qh8po24S9ghuudjts3xXAPLkf3nx7FqkOynoeibQ==
+"@the-chat/ui-kit@^1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@the-chat/ui-kit/-/ui-kit-1.2.8.tgz#7867be1e0f11d42f96d1c48ec8583a4d8d41b5c5"
+  integrity sha512-AxXIPSMM/O39xlk5pIy42lszycyHIS8kBpfX1BwyCR4PovK7Fgbadcwv17Mpu8Qo9cRvIDmpL7AFjd+xNvA4Tw==
   dependencies:
     "@emotion/react" "^11.8.1"
     "@emotion/styled" "^11.8.1"
     "@mui/icons-material" "^5.4.4"
     "@mui/material" "^5.4.1"
     "@mui/styles" "^5.4.1"
-    "@the-chat/config" "^1.0.3"
+    "@the-chat/config" "^1.0.4"
     "@the-chat/gen-context" "^1.1.5"
     "@the-chat/types" "^1.0.6"
-    "@the-chat/use-sso" "^1.1.2"
+    "@the-chat/use-sso" "^1.1.3"
     "@the-chat/use-user" "^1.1.6"
-    "@the-chat/utils" "^1.1.2"
+    "@the-chat/utils" "^1.1.3"
     next "^12.0.10"
     next-i18next "^10.5.0"
     react "^17.0.2"
@@ -1901,12 +1898,12 @@
     "@the-chat/alert" "^1.1.1"
     next-i18next "^10.4.0"
 
-"@the-chat/use-sso@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@the-chat/use-sso/-/use-sso-1.1.2.tgz#75ddb3d389311b2e91789578e8bf11bdc1bfbcf0"
-  integrity sha512-B5bbszRxZ1zCMWbzfStSsf+p48LPxAZyjZoxaq5hHITdortGZYFqiCtyS6BkMMtUjQMQcRr+kV0efyZcYM6fSQ==
+"@the-chat/use-sso@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@the-chat/use-sso/-/use-sso-1.1.3.tgz#705c22acab82f4ad3b0e4a02535dd985082204a2"
+  integrity sha512-LdBjRQXNzNf9G6NBLABNF4sFz659QmYhfqcBTZ0NyMIRShx9qoFJF0p2uUdqCgXG0h+0E9bq6pOTfrQ58dO9og==
   dependencies:
-    "@the-chat/config" "^1.0.3"
+    "@the-chat/config" "^1.0.4"
     "@the-chat/query" "^1.0.6"
     "@the-chat/use-logs" "^1.1.1"
     "@the-chat/use-user" "^1.1.6"
@@ -1930,12 +1927,12 @@
     react "^17.0.2"
     react-firebase-hooks "4.0.1"
 
-"@the-chat/utils@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@the-chat/utils/-/utils-1.1.2.tgz#bafe3a1c1f3192684c53fe6082413474a656364e"
-  integrity sha512-D1eR23DrRI9hSu38QyiR6wWbjftX2adio7NyALbvPba5y/rSpPtejeEbaQBxpKqNwSSsUW016nlBEYbLsUxchw==
+"@the-chat/utils@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@the-chat/utils/-/utils-1.1.3.tgz#e37b09cf39722b4689f10ef0ae653a61a509fa4d"
+  integrity sha512-UL9ca+C+9t7Nq2wO6xjKKeVT2wFTxsH+RuvNRpmv6WGffv2L5GS/0j9x0i8O5YCIt53PUVcN2+WkPl+FRtQ0NA==
   dependencies:
-    "@the-chat/config" "^1.0.3"
+    "@the-chat/config" "^1.0.4"
     "@the-chat/types" "^1.0.6"
     next-i18next "^10.5.0"
 
