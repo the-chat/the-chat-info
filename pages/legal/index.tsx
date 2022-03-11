@@ -7,4 +7,4 @@ const LegalInfo = () => (
 )
 
 export default LegalInfo
-export const getStaticProps = nextJSPropsWithTranslation(["info"])
+export const getStaticProps = nextJSPropsWithTranslation(["info", "pages"])

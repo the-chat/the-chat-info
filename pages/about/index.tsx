@@ -7,4 +7,4 @@ const AboutConsumers = () => (
 )
 
 export default AboutConsumers
-export const getStaticProps = nextJSPropsWithTranslation(["info"])
+export const getStaticProps = nextJSPropsWithTranslation(["info", "pages"])
