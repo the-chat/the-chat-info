@@ -2,9 +2,12 @@ import { appWithTranslation } from "next-i18next"
 import { useState } from "react"
 import { auth, db } from "utils/firebase"
 import { AppProps } from "next/app"
-import { Header, Wrapper } from "@the-chat/ui-kit"
 import { INFO, SSO } from "@the-chat/config"
-import { useSidebarButtonsDefaultSortFn } from "@the-chat/ui-kit"
+import {
+  Header,
+  Wrapper,
+  useSidebarButtonsDefaultSortFn,
+} from "@the-chat/ui-kit"
 
 const App = ({ Component, pageProps }: AppProps) => (
   <Wrapper
