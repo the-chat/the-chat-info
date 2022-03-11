@@ -5,45 +5,54 @@ import fs from "fs"
 
 // learn: is "legalInfoThemes" name ok for legal info (<name>: <content>)
 
+const keysFilter = (obj, filter) =>
+  Object.entries(obj)
+    .filter(filter)
+    .reduce((obj, [k, v]) => ({ ...obj, [k]: v }), {})
+
 const writeNanespace = (locale, name, namespacee) =>
   fs.writeFileSync(
     `./public/locales/${locale}/${name}.json`,
     JSON.stringify(namespacee, null, 2) + "\n"
   )
 
-const transformInfo = (info) => {
-  return (info.startsWith('"') ? info.slice(1, -2) : info).trim()
-}
+const transformText = (info) =>
+  (info.startsWith('"') ? info.slice(1, -2) : info).trim()
 
-const compile = (locale) => {
-  const info = yaml.load(fs.readFileSync("./info.yaml", "utf8"))[locale]
-  info.legalInfoThemes = Object.entries(info.legalInfoThemes).reduce(
-    (data, [legalInfoTheme, legalInfo]) => {
-      return Object.assign(data, {
-        [legalInfoTheme]: transformInfo(legalInfo),
-      })
-    },
+const transformRecursive = (obj) =>
+  Object.entries(obj).reduce(
+    (obj, [key, v]) => ({
+      ...obj,
+      [key]: typeof v == "string" ? transformText(v) : transformRecursive(v),
+    }),
     {}
   )
 
-  const pages = JSON.parse(
-    fs.readFileSync("./public/locales/" + locale + "/pages.json")
+const createPagesFromInfoProp = (obj, preffix) =>
+  Object.entries(obj).reduce(
+    (titles, [title, info]) => ({
+      ...titles,
+      [preffix + title]: info.split("\n")[0].slice(2),
+    }),
+    {}
+  )
+
+const compile = (locale) => {
+  const info = transformRecursive(
+    yaml.load(fs.readFileSync("./info.yaml", "utf8"))[locale]
   )
 
   const newPages = Object.assign(
-    pages,
-    Object.entries(info.legalInfoThemes).reduce(
-      (legalInfoTitles, [legalInfoTheme, legalInfo]) => ({
-        ...legalInfoTitles,
-        ["/legal/" + legalInfoTheme]: legalInfo.split("\n")[0].slice(2),
-      }),
-      {}
-    )
+    keysFilter(info, ([key]) => key.startsWith("/")),
+    createPagesFromInfoProp(info.legalInfoThemes, "/legal/"),
+    createPagesFromInfoProp(info.aboutConsumers, "/about/")
   )
 
-  info.about = transformInfo(info.about)
-
-  writeNanespace(locale, "info", info)
+  writeNanespace(
+    locale,
+    "info",
+    keysFilter(info, ([key]) => !key.startsWith("/"))
+  )
   writeNanespace(locale, "pages", newPages)
 }
 
