@@ -1,6 +1,6 @@
 {
-  "name": "the Chat",
-  "short_name": "chat",
+  "name": "The Chat Info",
+  "short_name": "Chat Info",
   "icons": [
     {
       "src": "https://the-chat-resources.vercel.app/photos/the-chat-info-logo.png",
