@@ -2,7 +2,7 @@ import { useRouter } from "next/router"
 import info from "public/locales/en/info.json"
 import { i18n } from "next-i18next.config.js"
 import nextJSPropsWithTranslation from "utils/nextJSPropsWithTranslation"
-import DisplayInfo from "components/DisplayInfo"
+import { DisplayInfo } from "@the-chat/ui-kit"
 const { legalInfoThemes } = info
 
 const LegalInfoDocument = () => {
