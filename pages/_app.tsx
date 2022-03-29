@@ -5,11 +5,17 @@ import { AppProps } from "next/app"
 import { Interface, useSidebarButtonsDefaultSortFn } from "@the-chat/ui-kit"
 import ReactMarkdown from "react-markdown"
 import manifest from "public/manifest.json"
+import remarkGfm from "remark-gfm"
 
 const App = ({ Component, pageProps }: AppProps) => (
   <Interface
     configProviderValue={{
-      ReactMarkdown,
+      markdown: {
+        Component: ReactMarkdown,
+        props: {
+          remarkPlugins: [remarkGfm],
+        },
+      },
       auth,
       sidebarOpen: useState<boolean>(false),
       signOutArgs: [auth, "SIGN OUT", "ERROR"],
