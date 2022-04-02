@@ -1846,10 +1846,10 @@
   dependencies:
     "@types/node" "^17.0.21"
 
-"@the-chat/db@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@the-chat/db/-/db-1.0.8.tgz#11e55ce28b50db0371eb4438b7ab3524d894dfc1"
-  integrity sha512-DDRxuPXpJW3nDHpaEf+hEVMt/RqD6LNFtgMlPzc1qMIFsY+KSJMmwqC8FDIxn1YjICCyU4E3sf+CYoUem6j9EA==
+"@the-chat/db@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@the-chat/db/-/db-1.0.9.tgz#312e08e8c8bb9bfb313291567a1b947dbf2a91d8"
+  integrity sha512-y3wf8T2MwGkXY/+R9BEg5EdPEsnUc1iDlwk6GnTr+WS81ah9blzdZkHM1xyLGwC6hSxpQYMY4moMLen9OO341g==
   dependencies:
     firebase "^9.6.7"
     react-firebase-hooks "^4.0.1"
@@ -1869,10 +1869,10 @@
   resolved "https://registry.yarnpkg.com/@the-chat/types/-/types-1.0.7.tgz#be0dc1e6104d76d6160a52a85f9e31e86072b0c8"
   integrity sha512-rsat/zaUwukk7ZY6XYCCTTBHaqTJwV/11wbZvFlfynwmgKMQMLTf4SvfOpwVI2Plj7MPHpMu3/4GvbOWAWj22g==
 
-"@the-chat/ui-kit@^1.3.9":
-  version "1.3.9"
-  resolved "https://registry.yarnpkg.com/@the-chat/ui-kit/-/ui-kit-1.3.9.tgz#b049261dc71b1c0211b5d5917bc82aaad0bc9964"
-  integrity sha512-j2f3M80791keu0M25x3jagx5mci0v9TOtr+fFgS36x5IfZmzSYRltQ9OpdBDT17z+scsaO7JRpZOjw2zfpwI9g==
+"@the-chat/ui-kit@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@the-chat/ui-kit/-/ui-kit-1.4.0.tgz#faba6b45a820fdd227c1d07be9c0e69ce8e2fd64"
+  integrity sha512-Xu/2G4f84iU06oyYBaLnSOKLerdNgjwkSoLdCLtzHwYNNWH9vAGeD1O9fe8K15vfib+y8/ttd9otRkJBNA0DlQ==
   dependencies:
     "@emotion/react" "^11.8.1"
     "@emotion/styled" "^11.8.1"
@@ -1882,8 +1882,8 @@
     "@the-chat/config" "^1.0.5"
     "@the-chat/gen-context" "^1.1.6"
     "@the-chat/types" "^1.0.7"
-    "@the-chat/use-sso" "^1.1.5"
-    "@the-chat/use-user" "^1.1.7"
+    "@the-chat/use-sso" "^1.1.6"
+    "@the-chat/use-user" "^1.1.8"
     "@the-chat/utils" "^1.1.5"
     next "^12.0.10"
     next-i18next "^10.5.0"
@@ -1899,27 +1899,27 @@
     "@the-chat/alert" "^1.1.1"
     next-i18next "^10.4.0"
 
-"@the-chat/use-sso@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@the-chat/use-sso/-/use-sso-1.1.5.tgz#0179ff97363cd43f808915294aa3711d0494df06"
-  integrity sha512-MYTgxWUdWyR29IQZ1AdlKWonaU3Jl5udXqFE1CnVJrw4UHmf95QxxzYk/pOYvVW0yI+vhFfbMksCUQhqOX2qZQ==
+"@the-chat/use-sso@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@the-chat/use-sso/-/use-sso-1.1.6.tgz#3d0938a44c6a469693d6e070fe9f75bd67c15d20"
+  integrity sha512-32utFwAaGkJJtMBsmxGbUW7ChzVe+3riBHFrzeLeP6/t3c0Zxxy8bHUbM08Y0Sn3ukOVfickxVqhkj/6oeI0EA==
   dependencies:
     "@the-chat/config" "^1.0.5"
     "@the-chat/query" "^1.0.6"
     "@the-chat/use-logs" "^1.1.2"
-    "@the-chat/use-user" "^1.1.7"
+    "@the-chat/use-user" "^1.1.8"
     axios "^0.26.0"
     firebase "^9.6.7"
     next "^12.1.0"
     next-i18next "^10.4.0"
     react "^17.0.2"
 
-"@the-chat/use-user@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@the-chat/use-user/-/use-user-1.1.7.tgz#24763815616fff9f34062b1b3d0e51bdec0cd06d"
-  integrity sha512-bslLK0nERlOyutEE1Y73WWG2gnFloVN7NWcK4MsAAz3QLbDdWxhwMNTsv7A+DHzZHCNUcxHiix8C80Thn6K1rg==
+"@the-chat/use-user@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@the-chat/use-user/-/use-user-1.1.8.tgz#bae8d819f7d220143a72e13792e7a8165b435703"
+  integrity sha512-0MqM3lMyfK/ZPOeHuaAWD7nnfU/dLK35GlUirV36a5ABtG/W0wM5NoWVGU5DlSTuXYICSEsTg3y0EhEqPfa91w==
   dependencies:
-    "@the-chat/db" "^1.0.8"
+    "@the-chat/db" "^1.0.9"
     "@the-chat/gen-context" "^1.1.6"
     "@the-chat/types" "^1.0.7"
     "@the-chat/use-logs" "^1.1.2"
