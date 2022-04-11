@@ -6,6 +6,7 @@ import { Interface, useSidebarButtonsDefaultSortFn } from "@the-chat/ui-kit"
 import ReactMarkdown from "react-markdown"
 import manifest from "public/manifest.json"
 import remarkGfm from "remark-gfm"
+import Head from "next/head"
 
 const App = ({ Component, pageProps }: AppProps) => (
   <Interface
@@ -23,7 +24,10 @@ const App = ({ Component, pageProps }: AppProps) => (
       containerMaxWidth: "md",
       useSidebarButtons: () => useSidebarButtonsDefaultSortFn({}),
     }}
-    name={manifest.name}
+    appHead={{
+      name: manifest.name,
+      Head,
+    }}
     userProviderParams={{
       db,
       path: "users/",
