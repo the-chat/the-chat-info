@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@mui/material": "^5.4.4",
-    "@the-chat/ui-kit": "^1.4.0",
+    "@the-chat/ui-kit": "^1.4.6",
     "firebase": "^9.6.8",
     "firebase-admin": "^10.0.2",
     "next": "^12.1.0",
