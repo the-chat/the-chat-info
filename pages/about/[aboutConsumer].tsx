@@ -8,7 +8,7 @@ const { aboutConsumers } = info
 const AboutConsumerDocument = () => {
   const { aboutConsumer } = useRouter().query
 
-  return <DisplayInfo tKey={"aboutConsumers." + aboutConsumer} />
+  return <DisplayInfo ns="info" tKey={"aboutConsumers." + aboutConsumer} />
 }
 
 export default AboutConsumerDocument

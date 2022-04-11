@@ -8,7 +8,7 @@ const { legalInfoThemes } = info
 const LegalInfoDocument = () => {
   const { legalInfoTheme } = useRouter().query
 
-  return <DisplayInfo tKey={"legalInfoThemes." + legalInfoTheme} />
+  return <DisplayInfo ns="info" tKey={"legalInfoThemes." + legalInfoTheme} />
 }
 
 export default LegalInfoDocument
